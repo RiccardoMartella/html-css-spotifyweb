@@ -18,71 +18,88 @@
     <title>spotify</title>
   </head>
   <body>
-    <!-- left-area -->
-    <section class="flex height-100vh">
-      <!-- logo spotify + playlist-->
-      <div class="contenitore-logo-playlist">
-        <div>
-          <img class="logo-spotify" src="assets/img/logo.svg" alt="" />
+    <!-- contenitore principale -->
+    <div class="height-100vh">
+      <section class="flex contenitore-parte-superiore">
+        <!-- left-area -->
+        <!-- logo spotify + playlist-->
+        <div class="contenitore-logo-playlist">
+          <div>
+            <img class="logo-spotify" src="assets/img/logo.svg" alt="" />
 
-          <!-- lista -->
-          <ul>
-            <li class="flex">
-              <img src="assets/img/home.svg" alt="" /><a href=""
-                ><h3 class="opacity-0-5">Home</h3></a
-              >
-            </li>
-            <li class="flex">
-              <img src="assets/img/search.svg" alt="" /><a href=""
-                ><h3 class="opacity-0-5">Cerca</h3></a
-              >
-            </li>
-            <li class="flex">
-              <img src="assets/img/libreria.svg" alt="" /><a href=""
-                ><h3 class="opacity-0-5">La tua playlist</h3></a
-              >
-            </li>
-          </ul>
+            <!-- lista -->
+            <ul>
+              <li class="flex">
+                <img src="assets/img/home.svg" alt="" /><a href=""
+                  ><h3 class="opacity-0-5">Home</h3></a
+                >
+              </li>
+              <li class="flex">
+                <img src="assets/img/search.svg" alt="" /><a href=""
+                  ><h3 class="opacity-0-5">Cerca</h3></a
+                >
+              </li>
+              <li class="flex">
+                <img src="assets/img/libreria.svg" alt="" /><a href=""
+                  ><h3 class="opacity-0-5">La tua playlist</h3></a
+                >
+              </li>
+            </ul>
 
-          <!-- plyilist -->
-          <h4 class="padding-top-bot-10">PLAYLIST</h4>
-          <div class="flex">
-            <i
-              style="color: white; font-size: 45px"
-              class="fa-sharp fa-solid fa-square-plus margin-bottom"
-            ></i>
-            <h4 class="opacity-0-5 padding-tot-10">Crea Playlist</h4>
+            <!-- plyilist -->
+            <h4 class="padding-top-bot-10">PLAYLIST</h4>
+            <div class="flex">
+              <i
+                style="color: white; font-size: 45px"
+                class="fa-sharp fa-solid fa-square-plus margin-bottom"
+              ></i>
+              <h4 class="opacity-0-5 padding-tot-10">Crea Playlist</h4>
+            </div>
+            <!-- lista -->
+            <ul class="opacity-0-5">
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+            </ul>
           </div>
-          <!-- lista -->
-          <ul class="opacity-0-5">
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-          </ul>
+          <div class="margin-top-180">
+            <div class="flex">
+              <img
+                class="img-download"
+                src="assets/img/download.svg"
+                alt=""
+              /><a href=""><h3 class="opacity-0-5">Installa app</h3></a>
+            </div>
+            <hr />
+            <div class="flex">
+              <img class="img-profile" src="assets/img/profile.svg" alt="" />
+              <h4 class="opacity-0-5 contenitore-profile">Jhone Doe</h4>
+            </div>
+          </div>
         </div>
-        <div class="margin-top-180">
-          <div class="flex">
-            <img class="img-download" src="assets/img/download.svg" alt="" /><a
-              href=""
-              ><h3 class="opacity-0-5">Installa app</h3></a
-            >
+
+        <!-- mid area (high)-->
+        <div class="high-area">
+          <div class="flex justify-content-end align-items-center">
+            <a href=""><button>EFFETTUARE L'UPGRADE</button></a>
           </div>
-          <hr />
-          <div class="flex">
-            <img class="img-profile" src="assets/img/profile.svg" alt="" />
-            <h4 class="opacity-0-5 contenitore-profile">Jhone Doe</h4>
+          <!-- mid area (center)-->
+          <div class="center-area">
+            <div class="flex font-size-15 justify-content-center">
+              <div><h4>IN EVIDENZA</h4></div>
+              <div><h4>PODCAST</h4></div>
+              <div><h4>CLASSIFICHE</h4></div>
+              <div><h4>GENERI E MOOD</h4></div>
+              <div><h4>NUOVE USCITE</h4></div>
+              <div><h4>SCOPRI</h4></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- mid area high area-->
-      <div class="hig-area flex justify-content-end align-items-center">
-        <a href=""><button>EFFETTUARE L'UPGRADE</button></a>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
