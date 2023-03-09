@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+h4 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.opacity-0-5{
+    opacity: 0.5;
+}
+
+/* .logo-spotify */
+.contenitore-logo-playlist {
+    width: 300px;
+    height: calc(100% - 80px) ;
+    background-color: rgb(16, 16, 16);
+    padding: 20px;
+}
+
+.logo-spotify {
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+/* playlist home */
+li img {
+    height: 32px;
+}
