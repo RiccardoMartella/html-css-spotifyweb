@@ -9,6 +9,13 @@
     height: 100vh;
 }
 
+button {
+    padding: 14px;
+    color: white;
+    background-color: #090a13;
+    border-radius: 20px;
+    border: 2px solid white;
+}
 
 h4 {
     color: white;
@@ -39,7 +46,13 @@ a {
     flex-wrap: wrap;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
 
+.align-items-center {
+    align-items: center;
+}
 
 /* setting padding */
 .padding-tot-10 {
@@ -66,7 +79,7 @@ a {
 .contenitore-logo-playlist {
     width: 270px;
     height: calc(100% - 80px) ;
-    background-color: rgb(16, 16, 16);
+    background-color: #0c0c0c;
     padding: 20px;
 }
 
@@ -91,6 +104,7 @@ li img {
     margin-top: 12px;
 }
 
+/* profile download */
 .img-profile {
     height: 25px;
     background: grey;
@@ -108,4 +122,12 @@ h3.display-inline-block {
     color: white;
     padding: 17px 5px;
     opacity: 1;
+}
+
+/* mid area high area*/
+.hig-area {
+    width: calc(100% - 270px);
+    background-color: #080b15;
+    opacity: 0.9;
+    height: 100px;
 }
