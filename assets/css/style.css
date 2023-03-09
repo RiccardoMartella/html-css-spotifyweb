@@ -9,9 +9,6 @@
     height: 100vh;
 }
 
-.flex {
-    display: flex;
-}
 
 h4 {
     color: white;
@@ -28,9 +25,38 @@ a {
     opacity: 0.5;
 }
 
+
+/* setting flex */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+
+/* setting padding */
+.padding-tot-10 {
+    padding: 10px;
+}
+
+.padding-top-bot-10 {
+    padding: 27px 0 10px 0; 
+}
+
+/* setting margin */
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+
+
+/* left-area */
 /* .logo-spotify */
 .contenitore-logo-playlist {
-    width: 300px;
+    width: 270px;
     height: calc(100% - 80px) ;
     background-color: rgb(16, 16, 16);
     padding: 20px;
@@ -44,4 +70,10 @@ a {
 /* playlist home */
 li img {
     height: 32px;
+}
+
+.opacity-0-5 li {
+    color: white;
+    padding:5px 0;
+    list-style-type: none;
 }
