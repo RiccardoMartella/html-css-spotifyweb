@@ -110,6 +110,11 @@ a {
     margin-left: 40px;
 }
 
+/* setting width */
+.width-60 {
+    width: 60%;
+}
+
 /* left-area */
 /* .logo-spotify */
 .contenitore-parte-superiore {
@@ -279,7 +284,7 @@ footer {
 
 .barra-durata-brano {
     border-radius: 30px;
-    width: 350px;
+    width: 50%;
     height: 5px;
     margin: 0 10px;
     background-color: rgb(181, 181, 181);
