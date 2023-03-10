@@ -192,7 +192,7 @@ h3.display-inline-block {
     justify-content: center;
     margin-top: 15px;
     flex-wrap: wrap;
-    gap: 35px;
+    gap: 42px;
 }
 
 .sections {
@@ -309,4 +309,11 @@ footer {
         width: calc(calc(100% / 4) - 10px);
     }
     
+}
+
+@media screen and (max-width: 639px) {
+
+    .contenitore-img {
+        width: calc(calc(100% / 2) - 10px);
+    }
 }
