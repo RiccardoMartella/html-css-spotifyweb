@@ -301,3 +301,12 @@ footer {
 .align-items-center i {
     margin:0 5px;
 }
+
+
+@media screen and (max-width: 878px) {
+
+    .contenitore-img {
+        width: calc(calc(100% / 4) - 10px);
+    }
+    
+}
