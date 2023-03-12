@@ -44,6 +44,9 @@ a {
     display: inline-block;
 }
 
+.display-none {
+    display: none;
+}
 
 /* setting flex */
 .flex {
@@ -315,5 +318,37 @@ footer {
 
     .contenitore-img {
         width: calc(calc(100% / 2) - 10px);
+    }
+}
+
+@media screen and (max-width: 551px) {
+
+    .media-display-none {
+        display: none;
+    }
+
+    .contenitore-logo-playlist {
+        width: 40px;
+        padding: 5px;
+    }
+
+    .media-display-inline {
+        display: inline;
+    }
+
+    .media-margin {
+      margin-top:440px;
+    }
+
+    .media-justify-content-center {
+        justify-content: center;
+    }
+
+    .media-padding {
+        padding: 5px;
+    }
+
+    a {
+        padding: 0;
     }
 }
