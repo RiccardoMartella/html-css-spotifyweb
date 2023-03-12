@@ -7,6 +7,7 @@
 
 .height-100vh {
     height: 100vh;
+    overflow: hidden;
 }
 
 button {
@@ -228,7 +229,7 @@ h2 {
 /* cards music  */
 
 .center-area {
-overflow: auto;
+    overflow: auto;
 }
 
 .contenitore-center-img {
@@ -262,6 +263,10 @@ footer {
     width: 100%;
     height:calc(calc(100%) - (100% - 80px));
     background-color:rgb(56, 56, 56);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
  
 .justify-content-space-between img {
@@ -336,10 +341,12 @@ footer {
         display: inline;
     }
 
-    .media-margin {
-      margin-top:440px;
+    .media-contenitore-logo-playlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-
+    
     .media-justify-content-center {
         justify-content: center;
     }
